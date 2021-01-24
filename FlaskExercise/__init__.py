@@ -6,7 +6,7 @@ app = Flask(__name__)
 wsgi_app = app.wsgi_app
 # TODO: Set the app's logger level to "warning"
 #   and any other necessary changes
-app.logger.setLevel(logging.warning)
+app.logger.setLevel(logging.WARNING)
 # logging.basicConfig(level=logging.WARNING)
 
 
