@@ -12,9 +12,9 @@ def home():
 		app.logger.info('The INFO button was pushed')
 	elif log == 'warning':
 		app.logger.warning('The WARNING button was pushed')
-	elif log == 'warning':
+	elif log == 'error':
 		app.logger.error('The ERROR button was pushed')
-	elif log == 'warning':
+	elif log == 'critical':
 		app.logger.critical('The CRITICAL button was pushed')
 
 	return render_template(
